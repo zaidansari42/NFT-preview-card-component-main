@@ -8,7 +8,9 @@ Thanks for checking out my front-end Project.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-## Deploying my project
+## Deploying my project on
+
+https://zaidansari42.github.io/NFT-preview-card-component-main/
 
 ## Got feedback for me?
 
