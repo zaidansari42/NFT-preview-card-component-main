@@ -16,51 +16,36 @@
       rel="stylesheet"
     />
     <title>Frontend Mentor | NFT preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <div id="container">
-      <div class="components">
-        <section id="tile">
-          <a href="#"
-            ><img
-              src="images/image-equilibrium.jpg"
-              alt="Image of Equilibrium" />
-            <img src="images/icon-view.svg" alt="" class="view"
-          /></a>
-        </section>
-        <h2><a class="illum" href="#">Equilibrium #3429</a></h2>
-        <p>Our Equilibrium collection promotes balance and calm.</p>
-        <div class="comp">
-          <div class="component one">
-            <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
-                fill="#00FFF8"
-              />
-            </svg>
-            <span class="rate">0.041 ETH</span>
-          </div>
-          <div class="component two">
-            <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
-                fill="#8BACD9"
-              />
-            </svg>
-            <span class="time">3 days left</span>
-          </div>
+    <main id="container">
+      <section class="main_image">
+        <img src="images/image-equilibrium.jpg" alt="Image of Equilibrium" />
+        <div>
+          <img src="/images/icon-view.svg" alt="View Icon" />
         </div>
-        <hr />
-        <footer>
-          <div class="foot">
-            <img src="/images/image-avatar.png" alt="Image of the Avatar" />
-            <span>Creation of <a class="illum" href="#">Jules Wyvern</a></span>
-          </div>
-        </footer>
-      </div>
-    </div>
+      </section>
+      <section>
+        <h2>Equilibrium #3429</h2>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <section class="list">
+          <ul>
+            <li class="price">
+              <img src="./images/icon-ethereum.svg" alt="" />
+              0.041 ETH
+            </li>
+            <li>
+              <img src="./images/icon-clock.svg" alt="" />
+              3 days left
+            </li>
+          </ul>
+        </section>
+      </section>
+      <footer>
+        <img src="/images/image-avatar.png" alt="Image of the Avatar" />
+        Creation of<span>Jules Wyvern</span>
+      </footer>
+    </main>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
