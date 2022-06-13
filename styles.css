@@ -45,7 +45,7 @@ body {
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
 }
 
-section h2 {
+section h1 {
   color: white;
   font-weight: 600;
   margin: 1rem 0;
@@ -91,7 +91,7 @@ footer span {
   color: var(--White);
   margin-left: 5px;
 }
-h2:hover,
+h1:hover,
 footer span:hover {
   color: var(--Cyan);
   cursor: pointer;
