@@ -95,6 +95,7 @@ h1:hover,
 footer span:hover {
   color: var(--Cyan);
   cursor: pointer;
+  transition: 0.3s;
 }
 /* We have to give this section realtive if we want to move child element around the box with absolute position.  */
 #container .main_image {
@@ -110,6 +111,7 @@ footer span:hover {
   width: 100%;
   opacity: 0;
   border-radius: 0.5rem;
+  transition: 0.3s;
 }
 
 #container .main_image div img {
