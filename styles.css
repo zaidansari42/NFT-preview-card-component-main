@@ -25,9 +25,16 @@
 body {
   background-color: var(--main_BG);
   font-size: 18px;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   color: var(--Soft_blue);
   padding: 1.25rem;
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main_image img {
@@ -37,7 +44,7 @@ body {
 }
 
 #container {
-  margin: 0 auto 0.5rem;
+  scale: 0.8;
   width: 350px;
   background-color: var(--card_BG);
   border-radius: 1.2rem;
